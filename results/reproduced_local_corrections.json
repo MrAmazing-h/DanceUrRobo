@@ -1,0 +1,36 @@
+{
+  "source": "dense120",
+  "corrections": [
+    {
+      "center_dense_frame": 21,
+      "window": [
+        9,
+        34
+      ],
+      "joint": "L_arm_j4",
+      "peak_delta_rad": -0.001,
+      "wrist_body_trajectory_unchanged": false
+    },
+    {
+      "center_dense_frame": 22,
+      "window": [
+        10,
+        35
+      ],
+      "joint": "L_th_j1",
+      "peak_delta_rad": -0.001,
+      "wrist_body_trajectory_unchanged": true
+    },
+    {
+      "center_dense_frame": 441,
+      "window": [
+        429,
+        454
+      ],
+      "joint": "L_arm_j4",
+      "peak_delta_rad": -0.001,
+      "wrist_body_trajectory_unchanged": false
+    }
+  ],
+  "scope": "Local post-interpolation correction; all changes remain included in final metrics."
+}

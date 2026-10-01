@@ -1,0 +1,11 @@
+{
+  "intermediate_samples": 148617,
+  "substeps_per_interval": 64,
+  "nonseam_max_penetration_m": 0.0,
+  "seam_max_penetration_m": 0.0,
+  "ground_max_penetration_m": 0.0,
+  "violating_contacts": 0,
+  "violating_intervals": 0,
+  "details": [],
+  "scope": "Discrete interpolation sampling of configured collision proxies; not continuous collision detection."
+}

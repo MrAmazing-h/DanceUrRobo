@@ -1,0 +1,24 @@
+{
+  "previous": "inputs",
+  "output": "iteration02",
+  "torso_weight": 1.5,
+  "arm_weight": 1.5,
+  "palm_weight": 0.6,
+  "smooth": 0.12,
+  "accel": 0.12,
+  "clearance": 0.006,
+  "max_frames": 590,
+  "iterations": 30,
+  "seed": null,
+  "frame_cap": 0.24,
+  "filter": 0.65,
+  "finger_filter": 1.0,
+  "method": "Custom task-based differential IK, orientation/segment objectives; inspired by GMR, not an upstream GMR reproduction",
+  "fixed_reference": "Exactly stage11_f5d6 targets",
+  "gravity": [
+    0,
+    0,
+    0
+  ],
+  "runtime_seconds": 28.117994495201856
+}

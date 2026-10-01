@@ -1,0 +1,15 @@
+{
+  "quaternion_norm_max_error": 1.1102230246251565e-16,
+  "joint_position_limit_violations": [],
+  "mimic_max_residual_rad": 4.440892098500626e-16,
+  "state_checks_passed": true,
+  "total_samples_including_saved_poses": 150977,
+  "substeps_per_interval": 64,
+  "nonseam_max_penetration_m": 0.0,
+  "seam_max_penetration_m": 0.0,
+  "ground_max_penetration_m": 0.0,
+  "violating_contacts": 0,
+  "violating_intervals": 0,
+  "details": [],
+  "scope": "Discrete interpolation sampling of configured collision proxies; not continuous collision detection."
+}

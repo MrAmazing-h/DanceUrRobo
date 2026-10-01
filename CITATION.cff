@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this software if it supports your research."
+title: "DexMate Video Retargeting"
+authors:
+  - family-names: Liu
+    given-names: Xiangchen
+version: 0.1.0
+date-released: 2026-10-01
+license: MIT
+url: "https://github.com/MrAmazing-h/dexmate-video-retargeting"
+type: software

@@ -1,0 +1,9 @@
+{
+  "examples/baseline.npz": "292f7c78111c1858ba897ac0a5f30ccfb13e876b6a4b0a7457c3047c3aa13320",
+  "examples/inputs/body_targets.npz": "6ae05d7d718767e543947a7eebceaf493a293ff357a19194fd703f255bdffaf2",
+  "examples/inputs/hands.npz": "608fa6362d9f0fbe7a406bdfcd3f66e8ad97668f70a6bcc9a6f2d1bc5f636cdf",
+  "examples/inputs/seed.npz": "3b63d75c3a9e289c4c4d179ecfd6dc4eb3cf9db6f505a5b270afcd0d3d2d710c",
+  "examples/inputs/target_inputs.npz": "504fc145f130900cd5637dfed01f01993bf5bcb1989e7af2462f186759e65f01",
+  "examples/reference.npz": "5bc3b9b392cd7d320742f3e7390a6782bae78f13cadd78921133e118d5d062fc",
+  "src/dexmate_video_retargeting/data/model_contract.json": "743d77ab5c2845e688bbae85fc97b0a76a5bfb68d7e994e509dab692974c2c60"
+}

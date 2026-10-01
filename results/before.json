@@ -1,0 +1,84 @@
+{
+  "reference": "Unchanged stage11_f5d6 estimated and proportion-adapted targets; not measured human ground truth. All comparisons use the same source frames.",
+  "frames": 590,
+  "wrist_cm": {
+    "mean": 3.325100700877924,
+    "p95": 8.82325207146482,
+    "max": 20.828930990885475
+  },
+  "chest_orientation_deg": {
+    "mean": 48.6755981368778,
+    "p95": 60.607598842958524,
+    "max": 70.507388838863
+  },
+  "chest_tilt_from_vertical_deg": {
+    "mean": 42.50106940184995,
+    "p95": 54.088424839165185,
+    "max": 59.42553139371824
+  },
+  "human_chest_tilt_deg": {
+    "mean": 7.773603916168213,
+    "p95": 16.685609817504883,
+    "max": 18.87107276916504
+  },
+  "arm_direction_deg": {
+    "L_upper": {
+      "mean": 7.439480724571331,
+      "p95": 16.62727934048468,
+      "max": 41.036941404500965
+    },
+    "L_forearm": {
+      "mean": 5.024934403529128,
+      "p95": 12.138145253329936,
+      "max": 26.537948394330964
+    },
+    "R_upper": {
+      "mean": 14.449607141436669,
+      "p95": 34.96905949295466,
+      "max": 65.07134183402829
+    },
+    "R_forearm": {
+      "mean": 7.471573609634698,
+      "p95": 16.88478312587794,
+      "max": 27.04947206395105
+    }
+  },
+  "palm_orientation_deg": {
+    "L": {
+      "mean": 16.470587589945687,
+      "p95": 42.1777242831375,
+      "max": 91.51591111269117
+    },
+    "R": {
+      "mean": 83.10583786740418,
+      "p95": 175.9210538034358,
+      "max": 179.9796973451449
+    }
+  },
+  "inter_wrist_vector_error_cm": {
+    "mean": 5.444349022597875,
+    "p95": 16.67694171632989,
+    "max": 38.337269891702
+  },
+  "note": "Torso roll is structurally unavailable in the three parallel-axis Vega torso joints. Palm orientation uses the same wrist/MCP frame convention on source and target. No contact success is inferred from wrist distance.",
+  "common_30hz_hinge_acceleration_rad_s2": {
+    "mean": 9.487955873843784,
+    "p95": 46.225345578177404,
+    "max": 265.54556791128635
+  },
+  "common_30hz_hinge_jerk_rad_s3": {
+    "mean": 347.64829639720364,
+    "p95": 1739.5625210071178,
+    "max": 11818.629433611934
+  },
+  "chest_pitch_error_deg": {
+    "mean": 47.568068328540356,
+    "p95": 58.77082608071852,
+    "max": 66.58527247413286
+  },
+  "head_orientation_error_deg": {
+    "mean": 53.87833317881624,
+    "p95": 65.94524914506204,
+    "max": 74.20907770121437
+  }
+}

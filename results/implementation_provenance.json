@@ -1,0 +1,22 @@
+{
+  "selected_stages": [
+    "iteration01",
+    "iteration04",
+    "iteration05",
+    "iteration06"
+  ],
+  "historical_driver_sha256": {
+    "iteration01": "e92e4b1d02801d86c28c258385928b98ef652b88989cea5ccc473e2e1e2ecb32",
+    "iteration04": "94bb72aa6b81f96115f80bc263549bb4867b81072d7f320adfce2767831cb69c",
+    "iteration05": "54755672f54ac3ed1143c7558db08b96f10d427cf1bedc4720a0b8c5b73ec136",
+    "iteration06": "54755672f54ac3ed1143c7558db08b96f10d427cf1bedc4720a0b8c5b73ec136"
+  },
+  "port_changes": [
+    "Relative package imports and explicit input/output roots.",
+    "Mapped landmark subset and derived chest/head rotations replace dependence on the full private intermediate directory.",
+    "Validate the robot joint layout.",
+    "Raise on unsuccessful SQP completion.",
+    "Audit saved poses and ground penetration in addition to intermediate self-collision samples.",
+    "Retain the actual selected framewise IK update, without the later additional joint clipping operation."
+  ]
+}

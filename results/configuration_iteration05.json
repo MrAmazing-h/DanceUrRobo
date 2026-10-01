@@ -1,0 +1,21 @@
+{
+  "previous": "inputs",
+  "seed": "iteration04",
+  "output": "iteration05",
+  "iterations": 12,
+  "accel": 1.5,
+  "velocity": 0.08,
+  "clearance": 0.004,
+  "torso_weight": 1.8,
+  "palm_weight": 0.6,
+  "velocity_factor": 0.0,
+  "head_weight": 0.3,
+  "samples": 4,
+  "line_search": true,
+  "trust": 0.06,
+  "audit": "iteration04/evaluation/interpolation_audit.json",
+  "dense_substeps": 32,
+  "method": "Offline trajectory SQP with segment and orientation fitting, velocity/acceleration regularization, and sampled collision constraints with reported slacks",
+  "head_calibration": "Initial observed global head orientation aligned to initial anatomical chest frame; SMPL-X local rotations composed through parents",
+  "runtime_seconds": 192.08891244605184
+}

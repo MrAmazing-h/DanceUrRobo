@@ -1,0 +1,8 @@
+# Versions used for the Linux / Python 3.11 release checks.
+numpy==2.3.5
+scipy==1.17.1
+mujoco==3.10.0
+imageio==2.37.3
+imageio-ffmpeg==0.6.0
+Pillow==12.3.0
+osqp==1.1.3
