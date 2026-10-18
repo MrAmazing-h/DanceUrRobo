@@ -7,7 +7,7 @@ import urllib.request
 import zipfile
 from pathlib import Path
 
-URL = "https://github.com/MrAmazing-h/dexmate-video-retargeting/releases/download/v0.1.0/vega_1p_f5d6_model.zip"
+URL = "https://github.com/MrAmazing-h/DanceUrRobo/releases/download/v0.1.0/vega_1p_f5d6_model.zip"
 SHA256 = "5caa67cb27f8f1d36efb5daa7c9af9062b0c681a8f1cdb981558aad088439f37"
 
 

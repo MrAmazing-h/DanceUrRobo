@@ -1,0 +1,47 @@
+{
+  "case": "full_half_v2",
+  "balance_gate": "PASS",
+  "motion_fidelity": "NOT automatically accepted",
+  "direction_errors": {
+    "left_thigh": {
+      "mean_deg": 16.69567151167231,
+      "p95_deg": 25.383495391283397
+    },
+    "right_thigh": {
+      "mean_deg": 19.964892887414237,
+      "p95_deg": 29.327309339180577
+    },
+    "left_shin": {
+      "mean_deg": 9.335396613799274,
+      "p95_deg": 14.677087071813121
+    },
+    "right_shin": {
+      "mean_deg": 7.102413292263839,
+      "p95_deg": 12.847805747576887
+    },
+    "left_upperarm": {
+      "mean_deg": 22.391547704927465,
+      "p95_deg": 32.41416380519485
+    },
+    "right_upperarm": {
+      "mean_deg": 19.849096521271132,
+      "p95_deg": 33.06529205270645
+    },
+    "left_forearm": {
+      "mean_deg": 9.99656063944705,
+      "p95_deg": 18.939946314258314
+    },
+    "right_forearm": {
+      "mean_deg": 16.106034918355334,
+      "p95_deg": 26.111762463436463
+    }
+  },
+  "note": "Human and robot bone segment conventions are approximate. Direction error is diagnostic, not exact joint correspondence or deployment certification.",
+  "frames": 1100,
+  "video_fps": 25.0,
+  "video_seconds": 44.0,
+  "npz_samples": 2200,
+  "npz_seconds": 44.0,
+  "full_source_reached": true,
+  "source_sha256": "d86b59f61bbe4015d348bc4dff35121c724f3857c4e5285f4b66efe430750166"
+}

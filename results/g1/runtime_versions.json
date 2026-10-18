@@ -1,0 +1,13 @@
+{
+  "python": "3.11",
+  "numpy": "2.3.5",
+  "scipy": "1.17.1",
+  "mujoco": "3.10.0",
+  "onnxruntime": "1.31.0",
+  "torch": "2.13.0",
+  "Pillow": "12.3.0",
+  "imageio": "2.37.3",
+  "imageio-ffmpeg": "0.6.0",
+  "inference_provider": "CPUExecutionProvider",
+  "renderer": "EGL"
+}

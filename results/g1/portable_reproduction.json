@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "public-asset reproduction, not hardware or collision acceptance",
+  "mujoco": "3.10.0",
+  "max_abs_qpos_difference": 0.0,
+  "qpos_tolerance": 1e-05,
+  "samples": 1200,
+  "videos": {
+    "dynamic_rollout.mp4": {
+      "frames": 600,
+      "fps": 25.0
+    },
+    "source_vs_robot.mp4": {
+      "frames": 600,
+      "fps": 25.0
+    }
+  }
+}

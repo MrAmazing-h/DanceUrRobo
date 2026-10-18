@@ -4,4 +4,5 @@ recursive-include examples *.npz *.json
 recursive-include results *.json
 recursive-include scripts *.py
 recursive-include tests *.py
-recursive-include assets *.jpg *.gif
+recursive-include assets *.jpg *.gif *.svg
+recursive-include licenses *.txt

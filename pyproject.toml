@@ -4,19 +4,24 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dexmate-video-retargeting"
-version = "0.1.0"
-description = "DexMate Video Retargeting: Vega-1P/F5D6 kinematic motion generation and evaluation"
+version = "0.2.0"
+description = "DanceUrRobo: human motion adaptation, DexMate retargeting and G1 gravity-enabled dance"
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
-license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md", "licenses/*.txt"]
 authors = [{name = "Xiangchen Liu"}]
 dependencies = ["numpy>=2.2,<3", "scipy>=1.15,<2", "mujoco==3.10.0", "imageio>=2.37,<3", "imageio-ffmpeg>=0.6,<1", "Pillow>=11,<13", "osqp>=1.0,<2"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8,<9", "ruff>=0.11", "build>=1.2"]
+g1 = ["onnxruntime>=1.20,<2", "torch>=2.6,<3"]
 
 [project.scripts]
+danceurrobo-fetch = "danceurrobo.fetch_assets:main"
+danceurrobo-g1 = "danceurrobo.controller:main"
+danceurrobo-review = "danceurrobo.review:main"
+danceurrobo-audit = "danceurrobo.audit:main"
 dexmate-posture-ik = "dexmate_video_retargeting.posture_ik:main"
 dexmate-refine = "dexmate_video_retargeting.batch_refine:main"
 dexmate-upsample = "dexmate_video_retargeting.upsample_review:main"
@@ -29,14 +34,15 @@ dexmate-prepare-targets = "dexmate_video_retargeting.prepare_targets:main"
 dexmate-fetch-model = "dexmate_video_retargeting.fetch_model:main"
 
 [project.urls]
-Repository = "https://github.com/MrAmazing-h/dexmate-video-retargeting"
-Issues = "https://github.com/MrAmazing-h/dexmate-video-retargeting/issues"
+Repository = "https://github.com/MrAmazing-h/DanceUrRobo"
+Issues = "https://github.com/MrAmazing-h/DanceUrRobo/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
 
 [tool.setuptools.package-data]
 "dexmate_video_retargeting" = ["data/strokes/*", "data/*.json"]
+"danceurrobo" = ["data/*.json", "data/*.xml"]
 
 [tool.ruff]
 line-length = 100

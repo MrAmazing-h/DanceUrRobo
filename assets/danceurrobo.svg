@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+<title id="title">DanceUrRobo</title>
+<desc id="desc">Human motion. Robot rhythm. Open research in motion retargeting and gravity-enabled humanoid dance.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10182c"/><stop offset="1" stop-color="#0a101d"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#63e5d0"/><stop offset="1" stop-color="#a696ff"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#91a1bf" stroke-opacity=".07"/></pattern>
+</defs>
+<rect width="1280" height="420" rx="20" fill="url(#bg)"/>
+<rect width="1280" height="420" rx="20" fill="url(#grid)"/>
+<circle cx="1100" cy="145" r="160" fill="#63e5d0" opacity=".035"/>
+<circle cx="1000" cy="250" r="180" fill="#a696ff" opacity=".035"/>
+<text x="64" y="67" font-family="sans-serif" font-size="13" letter-spacing="4" fill="#63e5d0">MOTION · RETARGETING · CONTROL</text>
+<text x="60" y="169" font-family="sans-serif" font-size="86" font-weight="800" letter-spacing="-3" fill="#f5f7ff">Dance<tspan fill="url(#accent)">Ur</tspan>Robo</text>
+<text x="64" y="220" font-family="sans-serif" font-size="27" fill="#c7d1e6">Human motion. Robot rhythm.</text>
+<text x="64" y="260" font-family="sans-serif" font-size="17" fill="#8d9bb5">From visual motion to inspectable robot trajectories.</text>
+<rect x="64" y="311" width="238" height="38" rx="19" fill="#172d35" stroke="#31595c"/>
+<text x="83" y="336" font-family="sans-serif" font-size="13" fill="#8cf2dc">G1 + INSPIRE · DYNAMIC</text>
+<rect x="316" y="311" width="259" height="38" rx="19" fill="#25223b" stroke="#4d426c"/>
+<text x="335" y="336" font-family="sans-serif" font-size="13" fill="#c8baff">DEXMATE · KINEMATIC</text>
+<g transform="translate(930,70)" stroke-linecap="round" stroke-linejoin="round">
+<ellipse cx="115" cy="288" rx="113" ry="15" fill="#070b14"/>
+<g fill="none" stroke="#63e5d0" stroke-width="12">
+<path d="M100 100L82 154L110 199M100 100L153 127L189 85M82 154L48 208L61 267M82 154L130 206L157 260"/>
+</g>
+<rect x="77" y="55" width="49" height="39" rx="13" fill="#e9efff"/>
+<rect x="86" y="66" width="31" height="10" rx="5" fill="#263d50"/>
+<path d="M85 99L119 108L103 158L65 149Z" fill="#b9c9e6" stroke="#e9efff" stroke-width="3"/>
+<g fill="#a696ff" stroke="#161d32" stroke-width="3"><circle cx="100" cy="100" r="10"/><circle cx="82" cy="154" r="10"/><circle cx="48" cy="208" r="10"/><circle cx="130" cy="206" r="10"/><circle cx="153" cy="127" r="9"/></g>
+<path d="M49 271L76 271M145 267L171 267" stroke="#e9efff" stroke-width="13"/>
+<path d="M199 57V29L219 23V49" fill="none" stroke="#a696ff" stroke-width="4"/>
+<circle cx="193" cy="58" r="7" fill="#a696ff"/><circle cx="213" cy="50" r="7" fill="#a696ff"/>
+<path d="M-5 113Q-33 176 -1 230M233 117Q257 167 232 207" fill="none" stroke="#63e5d0" stroke-width="2" stroke-opacity=".3"/>
+</g>
+<text x="64" y="393" font-family="sans-serif" font-size="11" letter-spacing="2" fill="#677891">OPEN RESEARCH PROTOTYPE · SIMULATION, NOT HARDWARE CERTIFICATION</text>
+</svg>

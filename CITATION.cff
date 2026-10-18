@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "Please cite this software if it supports your research."
-title: "DexMate Video Retargeting"
+title: "DanceUrRobo"
 authors:
   - family-names: Liu
     given-names: Xiangchen
-version: 0.1.0
-date-released: 2026-10-01
+version: 0.2.0
+date-released: 2026-10-18
 license: MIT
-url: "https://github.com/MrAmazing-h/dexmate-video-retargeting"
+url: "https://github.com/MrAmazing-h/DanceUrRobo"
 type: software

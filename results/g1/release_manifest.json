@@ -1,0 +1,22 @@
+[
+  {
+    "motion": "native",
+    "video": "g1_native_comparison.mp4",
+    "trajectory": "native_motion.npz",
+    "video_sha256": "fb844dec0520721107eae70908c741730f9e7bd5adbd933321ead4f32ef11a47",
+    "trajectory_sha256": "cc866447fb04df0f3e5b91f5d3ed62434991823d61371e9df80e7363fd3617a9",
+    "samples": 1200,
+    "fps": 50,
+    "kind": "dynamic simulated rollout; not hardware-ready"
+  },
+  {
+    "motion": "half_speed",
+    "video": "g1_half_speed_comparison.mp4",
+    "trajectory": "half_speed_motion.npz",
+    "video_sha256": "092eb10f4dad976adbe98f022bc0532013becccc80ea3599b1207d3e44519abc",
+    "trajectory_sha256": "2b8aa894c0b0a8884f9aa26df5f410f8f3096789de3440d1f2c0fa8c0fb6bcd9",
+    "samples": 2200,
+    "fps": 50,
+    "kind": "dynamic simulated rollout; not hardware-ready"
+  }
+]
