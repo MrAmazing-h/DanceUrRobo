@@ -1,0 +1,35 @@
+{
+  "source_body_rotation_identity": "590 chest/head frames exactly equal to DexMate frozen inputs",
+  "source_sha256": "d86b59f61bbe4015d348bc4dff35121c724f3857c4e5285f4b66efe430750166",
+  "inputs": {
+    "dynamic_rollout.mp4": "a7dfbb2eb578f74230bcc96427e4ff051652aa4231643c1531197e06e964823d",
+    "dexmate_dance.mp4": "fac7da4efeddfbd9042c633316138de7d21047a9aab18be86b21f7e62561b378"
+  },
+  "g1_video_offset_seconds": 2,
+  "dexmate_video_offset_seconds": 0,
+  "source_window_seconds": [
+    0,
+    19.6
+  ],
+  "frames": 588,
+  "fps": 30,
+  "max_nearest_frame_time_error_seconds": 0.020000000000003126,
+  "speed_factor": 1,
+  "motion_states_changed": false,
+  "g1_crop_xyxy": [
+    0,
+    48,
+    640,
+    480
+  ],
+  "dexmate_crop_xyxy": [
+    0,
+    32,
+    720,
+    540
+  ],
+  "gif_frames": 196,
+  "gif_fps": 10,
+  "output_sha256": "5620bee458c82b21fe5335c99ea11bc884ae564e7fb7b5ca24c78b95534dbb42",
+  "scope": "Presentation only. Gravity-enabled G1 vs kinematic DexMate; not equivalent physical validation."
+}

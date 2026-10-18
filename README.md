@@ -21,35 +21,27 @@ Two distinct research tracks: G1 whole-body control under gravity, and DexMate k
 
 ## Watch it dance
 
-**Left: uploaded human SMPL-X reference. Right: simulated G1 with Inspire hands.**<br>
-Legs, waist, and arms are policy-controlled. Gravity stays on. No tether or root-position override. Finger targets stay neutral.
+**One dance, together: human reference → G1 + Inspire → DexMate front and side views.**<br>
+Both robot adaptations are shown at native speed on the same reference timeline.
 
-<p align="center"><img src="assets/g1/fullbody.gif" width="960" alt="Full-body G1 dance: source skeleton versus actual gravity-enabled robot rollout at native speed"></p>
+<p align="center"><img src="assets/showcase.gif" width="100%" alt="Synchronized human reference, gravity-enabled G1 full-body dance, and DexMate kinematic dance in front and side views"></p>
 
 <p align="center">
-<a href="https://github.com/MrAmazing-h/DanceUrRobo/releases/download/v0.2.0/g1_native_comparison.mp4"><b>▶ Native speed · 24 s</b></a>
+<a href="https://github.com/MrAmazing-h/DanceUrRobo/releases/download/v0.2.0/danceurrobo_showcase.mp4"><b>▶ Watch the combined showcase · 19.6 s · HD</b></a>
 &nbsp; / &nbsp;
-<a href="https://github.com/MrAmazing-h/DanceUrRobo/releases/download/v0.2.0/g1_half_speed_comparison.mp4"><b>▶ Half speed · 44 s</b></a>
+<a href="docs/SHOWCASE.md">How the comparison is aligned</a>
 &nbsp; / &nbsp;
-<a href="https://github.com/MrAmazing-h/DanceUrRobo/releases/download/v0.2.0/danceurrobo_g1_review.zip">Videos + trajectories</a>
+<a href="https://github.com/MrAmazing-h/DanceUrRobo/releases/download/v0.2.0/danceurrobo_g1_review.zip">G1 videos + trajectories</a>
 </p>
 
-The GIF shows the dance segment; full videos include initialization and final hold.
-This is a **pretrained GEAR-SONIC controller transfer**, not a newly trained policy or an exact reconstruction of the choreography.
+**G1:** pretrained GEAR-SONIC full-body dynamic control, gravity on, neutral finger targets, no root override.<br>
+**DexMate:** Vega-1P/F5D6 kinematic retargeting, gravity off, front and side views.
 
-> **Research preview, not hardware-ready.** Both recorded full-body trials finish without a fall, but hand self-contact, small joint-limit overshoots, and motion-tracking errors remain. A balance check is not a collision or deployment safety certificate.
+The combined video removes G1's two-second standing initialization and shows the common 19.6-second source window. No robot motion was regenerated or sped up for this presentation. These are different control modes, **not a like-for-like physical performance benchmark**.
 
-<details>
-<summary><b>Also included: DexMate Vega-1P/F5D6 kinematic dance</b></summary>
+> **Research preview, not hardware-ready.** G1's recorded trials finish without a fall, but self-contact, small joint-limit overshoots, and tracking errors remain. DexMate's kinematic replay does not establish dynamic balance. Neither is a deployment safety certificate.
 
-<p align="center"><img src="assets/demo.gif" width="720" alt="DexMate kinematic front and side replay"></p>
-
-[Watch DexMate](https://github.com/MrAmazing-h/DanceUrRobo/releases/download/v0.1.0/dexmate_dance.mp4) ·
-[Before / after](https://github.com/MrAmazing-h/DanceUrRobo/releases/download/v0.1.0/before_after_robot.mp4) ·
-[Complete original documentation](docs/DEXMATE.md)
-
-This older track directly replays qpos in zero gravity. It is **not** the dynamic G1 demonstration above. Its code, data, CLI commands, and v0.1.0 release remain available.
-</details>
+Original recordings: [G1 native](https://github.com/MrAmazing-h/DanceUrRobo/releases/download/v0.2.0/g1_native_comparison.mp4) · [G1 half speed](https://github.com/MrAmazing-h/DanceUrRobo/releases/download/v0.2.0/g1_half_speed_comparison.mp4) · [DexMate](https://github.com/MrAmazing-h/DanceUrRobo/releases/download/v0.1.0/dexmate_dance.mp4) · [DexMate method](docs/DEXMATE.md).
 
 ## Two tracks. Clear contracts.
 
